@@ -1,0 +1,21 @@
+{
+  "general": {
+    "404": {
+      "title": "",
+      "subtext_html": ""
+    },
+    "breadcrumbs": {
+      "home_link_title": "",
+      "home": ""
+    },
+    "newsletter_form": {
+      "newsletter_email": "",
+      "submit": "",
+      "confirmation": ""
+    },
+    "meta": {
+      "page": "",
+      "tags": ""
+    }
+  }
+}

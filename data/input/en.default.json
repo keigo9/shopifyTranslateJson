@@ -1,0 +1,21 @@
+{
+  "general": {
+    "meta": {
+      "tags": "Tagged \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
+    "404": {
+      "title": "404 Page not found",
+      "subtext_html": "The page you requested does not exist. Click <a href=\"\/collections\/all\">here<\/a> to continue shopping."
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "home_link_title": "Back to the frontpage"
+    },
+    "newsletter_form": {
+      "newsletter_email": "email@example.com",
+      "submit": "Subscribe",
+      "confirmation": "Thanks for subscribing"
+    }
+  }
+}
