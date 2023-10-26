@@ -1,0 +1,24 @@
+{
+  "general": {
+    "404": {
+      "title": "404 ページが見つかりません",
+      "subtext_html": "リクエストされたページは存在しません。買い物を続けるには<a href=\"/collections/all\">こちら</a>をクリックしてください。"
+    },
+    "meta": {
+      "tags": "タグ「{タグ }}」\"",
+      "page": "ページ {{ ページ }}"
+    },
+    "breadcrumbs": {
+      "home": "ホーム",
+      "home_link_title": "フロントページに戻る"
+    },
+    "newsletter_form": {
+      "newsletter_email": "email@example.com",
+      "submit": "サブスクライブ",
+      "confirmation": "ご購読ありがとうございます。"
+    }
+  },
+  "date_formats": {
+    "month_date_year": "B %d, %Y"
+  }
+}

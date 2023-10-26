@@ -17,5 +17,8 @@
       "submit": "Subscribe",
       "confirmation": "Thanks for subscribing"
     }
+  },
+  "date_formats": {
+    "month_date_year": "%B %d, %Y"
   }
 }
