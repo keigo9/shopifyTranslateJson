@@ -12,16 +12,6 @@ const outputFilePath = './data/output/output.json'; // 出力CSVファイルの�
 // JSONファイルを読み込む
 const jsonData = require(inputFilePath);
 
-async function translateObject(obj) {
-  for (const key in obj) {
-    if (typeof obj[key] === 'string') {
-      obj[key] = await translateText(obj[key]);
-    } else if (typeof obj[key] === 'object') {
-      await translateObject(obj[key]);
-    }
-  }
-}
-
 // テキストを翻訳する関数
 async function translateText(text) {
   try {
